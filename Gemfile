@@ -28,3 +28,4 @@ gem 'spring',         group: :development
 # Devise gives you Users
 gem 'devise', '~> 3.4.1'
 gem 'omniauth', '>= 1.0.0'
+gem 'protected_attributes'
