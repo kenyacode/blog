@@ -16,6 +16,9 @@
 
 @import 'normalize';
 
+$aqua: #33acb7;
+$cream: #ffdab9;
+
 html, body {
 	font-family: 'Raleway', sans-serif;
 }
@@ -25,8 +28,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-	text-decoration: none;
-	color: #33acb7;
+	text-decoration: underline;
+	color: $aqua;
 }
 
 #sidebar {
@@ -37,7 +40,7 @@ a {
 	height: 100%;
 	background: #f5f7f9;
 	padding: 7em 0 0 0;
-	border-right: 1px solid #d6dce0;
+	border-right: 1px solid $aqua;
 	#logo {
 		width: 40px;
 		position: absolute;
@@ -52,16 +55,16 @@ a {
 			font-weight: 700;
 			font-size: 0.7em;
 			text-transform: uppercase;
-			color: #33acb7;
+			color: $aqua;
 		}
 		li {
 			padding: .5em 0;
 			a {
-				color: #9eafba;
+				color: $aqua;
 				text-decoration: none;
 				transition: all .4s ease;
 				&:hover {
-					color: #33acb7;
+					color: $aqua;
 				}
 			}
 		}
@@ -75,17 +78,25 @@ a {
 		position: absolute;
 		right: 3em;
 		top: 80%;
-		font-size: .8em;
-		color: #9eafba;
+		font-size: 1em;
+		color: $aqua;
 	}
 }
 
+.pull-right	{
+	float: right !important;
+}
+
+.margin	{
+	padding-right: 80px;
+}
 .button {
 	outline: none;
 	background: transparent;
-	border: 1px solid #d6dce0;
+	border: 1px solid #33acb7;
 	padding: .5em 1.5em;
 	border-radius: 1.5em;
+	color: $aqua;
 	&:hover {
 		border: 1px solid #33acb7;
 		color: #33acb7;
@@ -114,7 +125,7 @@ a {
 			display: inline;
 		}
 		a {
-			color: #9eafba;
+			color: $aqua;
 			text-decoration: none;
 		}
 		.buttons {
@@ -134,7 +145,7 @@ a {
 			a {
 				font-weight: 500;
 				text-decoration: none;
-				color: #2a2f35;
+				color: #33acb7;
 				font-size: 1.5em;
 				&:hover {
 					color: #33acb7;
@@ -151,7 +162,7 @@ a {
 		.title {
 			font-weight: 500;
 			text-decoration: none;
-			color: #2a2f35;
+			color: #33acb7;
 			font-size: 2.5em;
 			margin-bottom: 0;
 		}
@@ -160,7 +171,7 @@ a {
 			line-height: 1.75;
 		}
 		.date_and_author {
-			color: #9eafba;
+			color: #33acb7;
 			margin: .5em 0 2em 0;
 		}
 		#comments {
@@ -168,9 +179,11 @@ a {
 				margin: 3em 0 1em 0;
 				border-bottom: 1px solid #d6dce0;
 				padding-bottom: 0.5em;
+				color: $cream;
 			}
 			h3 {
 				margin-top: 2em;
+				color: $cream;
 			}
 			.comment {
 				border-bottom: 1px solid #d6dce0;
@@ -182,6 +195,7 @@ a {
 					clear: both;
 				}
 				.comment_content {
+					color: #33acb7;
 					float: left;
 					.comment_name {
 						margin: 1em 0 0 0;
@@ -199,6 +213,7 @@ a {
 				}
 				.button {
 					float: right;
+					color: $aqua;
 				}
 			}
 			input[type="text"], textarea {
@@ -220,6 +235,7 @@ a {
 		#content {
 			h1 {
 				font-weight: 500;
+				color: $aqua;
 			}
 			p {
 				font-size: 1.1em;
@@ -237,7 +253,7 @@ a {
 	}
 	input[type="text"], input[type="email"], input[type="password"], textarea {
 		width: 90%;
-		border: 1px solid #d6dce0;
+		border: 1px solid $cream;
 		border-radius: .35em;
 		margin-top: 10px;
 		padding: .5em 1em;
@@ -252,7 +268,7 @@ a {
 	input[type="submit"] {
 		outline: none;
 		background: transparent;
-		border: 1px solid #d6dce0;
+		border: 1px solid $cream;
 		padding: .5em 1.5em;
 		font-size: 1.1em;
 		border-radius: 1.5em;
