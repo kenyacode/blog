@@ -45,12 +45,16 @@ Locally I use sqlite3 and for production postgresql
 *	5. Test email 'test@kenyacode.com'
 *	6. Test password 'wordpass'
 
+Checkout the app live here: [jmblog]
+
 # ABOUT THE DEVELOPER
 ![pic](https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/0a8/375/381adb6.jpg)
 
 #### I learned to code at [generalassemb.ly] ![ga logo](https://media.licdn.com/media/p/3/005/0a3/2df/1671d50.png)
 ####[LinkedIn](https://www.linkedin.com/in/kenyacode)
 ####<kenyadevelop@gmail.com>
+####[Raddit app](https://github.com/kenyacode/raddit) live [jmraddit]
 ####[Recipe Box app](https://github.com/kenyacode/recipe_box)
-####[Raddit app](https://github.com/kenyacode/raddit)
 [generalassemb.ly]:https://generalassemb.ly/
+[jmblog]:https://jmblog.herokuapp.com/
+[jmraddit]:https://jmraddit.herokuapp.com/
