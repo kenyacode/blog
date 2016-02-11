@@ -53,8 +53,8 @@ Checkout the app live here: [jmblog]
 #### I learned to code at [generalassemb.ly] ![ga logo](https://media.licdn.com/media/p/3/005/0a3/2df/1671d50.png)
 ####[LinkedIn](https://www.linkedin.com/in/kenyacode)
 ####<kenyadevelop@gmail.com>
-####[Raddit app](https://github.com/kenyacode/raddit) live [jmraddit]
-####[Recipe Box app](https://github.com/kenyacode/recipe_box)
+####Github Repo [Raddit app](https://github.com/kenyacode/raddit) Live on Heroku  [jmraddit]
+####Github Repo [Recipe Box app](https://github.com/kenyacode/recipe_box) Live on Heroku comming soon
 [generalassemb.ly]:https://generalassemb.ly/
 [jmblog]:https://jmblog.herokuapp.com/
 [jmraddit]:https://jmraddit.herokuapp.com/
